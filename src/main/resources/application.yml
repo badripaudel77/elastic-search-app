@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: my-es-app
+es:
+  app:
+    elasticsearch:
+      host: "localhost"
+      port: 9200
+
+# Optional logging for Elasticsearch queries
+logging:
+  level:
+    org.springframework.data.elasticsearch: DEBUG
+
+server:
+  port: 8080
